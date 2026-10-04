@@ -27,25 +27,53 @@
   figure img { display: block; width: 100%; height: auto; border-radius: 4px; }
   figcaption { margin-top: 10px; font-size: 13px; opacity: .7; }
   a { color: #0a58ca; }
+  h2 { font-size: 16px; margin: 36px 0 14px; opacity: .75; font-weight: 600; }
+  .grid { display: grid; gap: 20px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
 </style>
 </head>
 <body>
   <h1>红白图库</h1>
   <p class="lead">点击图片可查看完整尺寸。用于 AO3 外链引用。</p>
 
+  <h2>横版主图</h2>
+  <div class="grid">
   <figure>
     <a href="light.png"><img src="light.png" alt="浅色版"></a>
     <figcaption>浅色版 &middot; <a href="light.png">light.png</a></figcaption>
   </figure>
 
   <figure>
+    <a href="mid.png"><img src="mid.png" alt="中间版"></a>
+    <figcaption>中间版 &middot; <a href="mid.png">mid.png</a></figcaption>
+  </figure>
+
+  <figure>
     <a href="dark.png"><img src="dark.png" alt="深色版"></a>
     <figcaption>深色版 &middot; <a href="dark.png">dark.png</a></figcaption>
+  </figure>
+  </div>
+
+  <h2>其他</h2>
+  <div class="grid">
+  <figure>
+    <a href="1.png"><img src="1.png" alt="图 1"></a>
+    <figcaption>图 1 &middot; <a href="1.png">1.png</a></figcaption>
+  </figure>
+
+  <figure>
+    <a href="2.png"><img src="2.png" alt="图 2"></a>
+    <figcaption>图 2 &middot; <a href="2.png">2.png</a></figcaption>
+  </figure>
+
+  <figure>
+    <a href="3.png"><img src="3.png" alt="图 3"></a>
+    <figcaption>图 3 &middot; <a href="3.png">3.png</a></figcaption>
   </figure>
 
   <figure>
     <a href="preview.jpg"><img src="preview.jpg" alt="预览图"></a>
     <figcaption>预览图 &middot; <a href="preview.jpg">preview.jpg</a></figcaption>
   </figure>
+  </div>
 </body>
 </html>
